@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>diddy to pipi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="hero">
+    <h1>Diddy to pipi</h1>
+
+</div>
+<div class="container">
+    <div class="section" id="shortenSection">
+        <h2>Shorten URL</h2>
+        <p>Click here to shorten a URL</p>
+        <div class="arrow" id="shortenArrow">→</div>
+        <div class="form-container">
+            <input type="url" id="urlInput" placeholder="Enter long URL...">
+            <button onclick="shortenUrl()">Shorten</button>
+            <div class="result" id="shortenResult"></div>
+        </div>
+    </div>
+
+    <div class="section" id="openSection">
+        <h2>Open Short URL</h2>
+        <p>Click here to open a shortened URL</p>
+        <div class="arrow" id="openArrow">←</div>
+        <div class="form-container">
+            <input type="text" id="shortUrlInput" placeholder="Enter short URL...">
+            <button onclick="openUrl()">Open</button>
+            <div class="result" id="openResult"></div>
+        </div>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html> 
+
